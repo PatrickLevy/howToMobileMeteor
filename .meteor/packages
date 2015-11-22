@@ -20,4 +20,9 @@ autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 iron:router
 mdg:camera
-shake:shake
+mdg:geolocation
+twbs:bootstrap
+underscore
+cfs:standard-packages
+cfs:gridfs
+dburles:google-maps
