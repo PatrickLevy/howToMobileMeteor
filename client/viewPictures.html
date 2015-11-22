@@ -1,0 +1,29 @@
+<template name="viewPictures">
+	<head>
+	  <title>howToMobileMeteor</title>
+	</head>
+
+	{{ > navbar }}
+
+	<body>
+	  <h1>View your pictures!</h1>
+	  <div>Picture will go here</div>
+	  	<img src="{{photo}}">
+
+	  <h5>Shake for a new picture!</h5>
+	  <p><input type="button" class="shake" value="Shake"></p>
+
+	  {{ > map}}
+
+	</body>
+
+</template>
+
+
+
+
+<template name="map">  
+  <div class="map-container">
+    {{> googleMap name="map" options=mapOptions}}
+  </div>
+</template>
